@@ -1,0 +1,119 @@
+<html>
+<head>
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+<link rel="stylesheet" href="design.css">
+<box>
+  <img id="js" src="photos/javascript-logo.jpeg" width="100%"height="65%"> </box>
+
+</head>
+<body>
+  <script language="JavaScript">
+    var txt="- UPRM is not for SALE - ";
+    var espera=200;
+    var refresco=null;
+    function rotulo_title() {
+            document.title=txt;
+            txt=txt.substring(1,txt.length)+txt.charAt(0);
+            refresco=setTimeout("rotulo_title()",espera);}
+    rotulo_title();
+    </script>
+    
+    <ul class="nav justify-content-left">
+        <li class="nav-item">
+          <a class="nav-link active" aria-current="page" href="http://csmath.uprm.edu/~eloitz/prog_languages/home.html"style="color: black;font-family:fantasy;">GO BACK</a>
+        </li>
+    </ul>
+        <br>
+          
+          <br>
+          <br>
+          <div align="center"> <img id="uprm" src="photos/not_for_sale.jpeg" width="40%" height="60%"> </div>
+          <br>
+          <br>         
+         
+          <marquee style="color: black;font-family:fantasy;">
+          <h1>UPRM IS NOT FOR SALE - - 
+            UPRM IS NOT FOR SALE - - UPRM IS NOT FOR SALE - -
+            UPRM IS NOT FOR SALE - - UPRM IS NOT FOR SALE - - 
+            UPRM IS NOT FOR SALE - - UPRM IS NOT FOR SALE - - UPRM IS NOT FOR SALE</h1></marquee>
+            <br>
+            <br>
+            <br>
+            <br>
+            <div align="center"> <img id="m" src="photos/million.jpeg" width="60%" height="60%"> </div>
+          <br>
+          <br>
+          <br>
+          <br>
+          <box>
+            <div align="center"style="color: black;font-family:fantasy;">
+              <h1>$$ CONGRATULATIONS! YOU WON 1 MILLION DOLLARS $$</h1>
+            </div>
+          </box>
+          <br>
+          <script>
+              function myAlert() {  
+                  alert("DON'T FALL INTO THESE TRAPS. NO ONE WOULD GIVE YOU MONEY . . . ");
+              } 
+              
+          </script>
+  
+          <div align ="center"><input type="button" onclick="myAlert();" value="CLICK HERE TO CLAIM"/>
+          </div>
+          <br>
+          <br>
+          <br>
+          <br>
+          <div align="center"><img id="clock" src="photos/clock.jpeg" width="60%" height="60%">
+        </div>
+          <br>
+          <box>
+            <div align="center"style="color: black;font-family:fantasy;">
+              <h1>DIGITAL WATCH:</h1>
+              <br>
+            </div>
+          </box>
+          <script>
+            function Ver_Hora()
+            {
+              var mihora = new Date();
+              var horas = mihora.getHours().toString();
+              var minutos = mihora.getMinutes().toString();
+              if (minutos.lenght ==1) minutos ="0" + minutos;
+              var segundos = mihora.getSeconds().toString();
+              if (segundos.length ==1) segundos = "0" + segundos;
+
+              document.forms[0].mireloj.value = horas + " : " + minutos + " : " + segundos;
+            }
+          </script>
+          <form>
+            <p align ="center">
+              <input type ="text" size ="10" name="mireloj">
+            </p>
+          </form>
+          <script>
+            var r = setInterval(" Ver_Hora()",500);
+          </script>
+          <br>
+          <box>
+            <div align="center"style="color: black;font-family:fantasy;">
+              <h4>PLEASE CHECK IF YOUR WATCH AND THIS DIGITAL WATCH ARE AT THE SAME TIME.
+              <br>
+              ARE THEY? 
+              <br>
+              YES I KNOW THEY ARE . . .
+              <br>
+              THAT IS BECAUSE TIME IS A HUMAN INVENTION.
+              <br>
+              IS IT AN ILLUSION OF THE PRESENT.
+              <br>
+              DOES NOT EXIST!!!</h4>
+            </div>
+          </box>
+            <br>
+            <br>
+
+</body>
+
+
+</html>

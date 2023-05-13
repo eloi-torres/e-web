@@ -1,0 +1,33 @@
+body
+{
+    background-color:aliceblue;
+}
+#me{
+    border-radius: 50%;
+}
+#facebook
+{
+    border-radius: 50%;
+}
+#ig{
+    border-radius: 50%;
+}
+#whatsapp{
+    border-radius: 50%;
+}
+#mail{
+    border-radius: 50%;
+}
+h2
+{
+text-align: right;
+    ;
+}
+
+h3{
+    color:black;
+    text-align: center;
+
+    
+}
+
